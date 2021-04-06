@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/MyPortfolio/static/css/main.25d3fe15.chunk.css",
+    "main.js": "/MyPortfolio/static/js/main.f35439f8.chunk.js",
+    "main.js.map": "/MyPortfolio/static/js/main.f35439f8.chunk.js.map",
+    "runtime-main.js": "/MyPortfolio/static/js/runtime-main.066e44e6.js",
+    "runtime-main.js.map": "/MyPortfolio/static/js/runtime-main.066e44e6.js.map",
+    "static/js/2.1f227197.chunk.js": "/MyPortfolio/static/js/2.1f227197.chunk.js",
+    "static/js/2.1f227197.chunk.js.map": "/MyPortfolio/static/js/2.1f227197.chunk.js.map",
+    "index.html": "/MyPortfolio/index.html",
+    "static/css/main.25d3fe15.chunk.css.map": "/MyPortfolio/static/css/main.25d3fe15.chunk.css.map",
+    "static/js/2.1f227197.chunk.js.LICENSE.txt": "/MyPortfolio/static/js/2.1f227197.chunk.js.LICENSE.txt",
+    "static/media/BITBOX.80add4e0.png": "/MyPortfolio/static/media/BITBOX.80add4e0.png",
+    "static/media/BU_Hack.eb0969bf.jpeg": "/MyPortfolio/static/media/BU_Hack.eb0969bf.jpeg",
+    "static/media/MyLogo.79b7508a.png": "/MyPortfolio/static/media/MyLogo.79b7508a.png",
+    "static/media/MyResume.a1497030.pdf": "/MyPortfolio/static/media/MyResume.a1497030.pdf",
+    "static/media/Profile Pic1.08c42928.jpg": "/MyPortfolio/static/media/Profile Pic1.08c42928.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.066e44e6.js",
+    "static/js/2.1f227197.chunk.js",
+    "static/css/main.25d3fe15.chunk.css",
+    "static/js/main.f35439f8.chunk.js"
+  ]
+}

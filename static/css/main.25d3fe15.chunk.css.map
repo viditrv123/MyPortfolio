@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/components/style.css"],"names":[],"mappings":"AAAA,KAEA,SAAY,CACZ,UAAU,CACT,iBAAkB,CACnB,iBACA","file":"main.25d3fe15.chunk.css","sourcesContent":["body{\r\n    \r\npadding: 0px;\r\nwidth:100%;\r\n overflow-x: hidden;\r\noverflow-y: hidden; \r\n}\r\n"]}
