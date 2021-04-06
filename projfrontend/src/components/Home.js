@@ -28,6 +28,7 @@ import Button from '@material-ui/core/Button';
 import pdf from '../assets/MyResume.pdf';
 import BITBOX from '../assets/BITBOX.png';
 import BU_Hack from '../assets/BU_Hack.jpeg';
+import Modal from 'react-bootstrap/Modal'
 const Home=()=>{
     const useStyles = makeStyles((theme) => ({
         paper: {
@@ -54,8 +55,8 @@ return(<div>
 
     
     
-<div className="row">
-<div className="col-md-4" >
+<div className="row" >
+<div className="col-md-4">
 <br></br>
     <Image src={Profile} className="avatar" style={{"width":"200px", "height":"200px","display": "block","marginRight":"auto","marginLeft":"auto"}} roundedCircle />
     <h1 style={{"textAlign":"center"}}>Hello World!<br /></h1><h2 style={{"textAlign":"center"}}>I am <br /> Vidit Singh Gautam</h2><br /><p style={{"textAlign": "center"}}>A Full Stack developer, Blockchain developer, Competitive Coder, based in Lucknow, India.</p>
@@ -75,7 +76,7 @@ return(<div>
     <Image src={Logo} style={{"width":"100px","height":"100px","display": "block","marginRight":"auto","marginLeft":"auto"}}></Image>
     </div>
     
-    <div className="col-md-8" style={{"overflowY":"scroll", "overflowY":"auto","width":"100%","height":"600px","padding":"0px"}}>
+    <div className="col-md-8" style={{"overflowY":"auto","overflowX":"hidden","width":"100%","height":"600px","padding":"0px"}}>
     <section id="projects" style={{"background-color": "#c7e9fb",
 "background-image": "linear-gradient(315deg, #c7e9fb 0%, #e61d8c 74%)"
 }}>
@@ -89,8 +90,6 @@ return(<div>
           style={{"height":"250px", "width":"100%"}}
           
           image={value.src}
-
-          
         />
         
         <CardContent>
@@ -175,7 +174,7 @@ return(<div>
       </section>
       <section id="skills" style={{"background-color": "#abe9cd",
 "background-image": "linear-gradient(315deg, #abe9cd 0%, #3eadcf 74%)"}}>
-<div style={{"marginLeft":"10px"}}>
+<div style={{"marginLeft":"25px"}}>
         <h3 style={{"textAlign":"center", "textDecoration":"underline"}}>Skills</h3>
         <br></br>
         <h6>Programming Languages</h6>
